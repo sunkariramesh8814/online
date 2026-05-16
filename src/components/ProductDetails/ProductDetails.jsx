@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useParams, Link } from "react-router-dom";
-import { useCart } from "./CartContext";
+import { useCart } from "../CartContext/CartContext";
 
 function ProductDetail() {
   const { id } = useParams();

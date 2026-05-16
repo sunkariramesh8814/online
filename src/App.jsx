@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { CartProvider } from "./CartContext";
-import Header from "./Header";
-import Home from "./Home";
-import Cart from "./Cart";
-import ProductDetail from "./ProductDetails";
+import { CartProvider } from "./components/CartContext/CartContext";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Cart from "./components/Cart/Cart";
+import ProductDetail from "./components/ProductDetails/ProductDetails";
 import "./App.css";
 
 function App() {

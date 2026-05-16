@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
-import { useCart } from "./CartContext";
+import { useCart } from "../CartContext/CartContext";
 
 function Header() {
   const { totalItems, totalPrice } = useCart();
@@ -16,7 +16,7 @@ function Header() {
   return (
     <header>
       <nav className="navbar">
-        <Link to="/">Mythra Clone</Link>
+        <Link to="/">Mynthra Clone</Link>
         <Link to="/cart" className="cart-link">
           🛒 {cartBadge}
         </Link>
